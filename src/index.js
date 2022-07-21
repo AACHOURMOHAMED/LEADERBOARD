@@ -20,7 +20,6 @@ add.addEventListener('click', () => {
   const newItemIndex = listItem.length;
   if (username.value && score.value && score.value <= 9999999) {
     addScoreToApi(username.value, score.value);
-    List(username.value, score.value, newItemIndex);
     username.value = null;
     score.value = null;
   }
