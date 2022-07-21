@@ -1,4 +1,5 @@
-import List from './List';
+import List from './List.js';
+
 const leaderBoardApi = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 const gameID = '4d7IVkemOTTVg2fUdz';
 
