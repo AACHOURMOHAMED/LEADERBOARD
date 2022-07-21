@@ -9,10 +9,12 @@ const add = document.getElementById('btn');
 const listItem = document.getElementsByClassName('item');
 
 referesh.addEventListener('click', () => {
-  if (!listItem.length) {
-    scoreList();
-  }
+    window.location.reload();
 });
+
+if (!listItem.length) {
+ scoreList(); 
+}
 
 add.addEventListener('click', () => {
   const newItemIndex = listItem.length;
