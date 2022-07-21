@@ -9,11 +9,11 @@ const add = document.getElementById('btn');
 const listItem = document.getElementsByClassName('item');
 
 referesh.addEventListener('click', () => {
-    window.location.reload();
+  window.location.reload();
 });
 
 if (!listItem.length) {
- scoreList(); 
+  scoreList();
 }
 
 add.addEventListener('click', () => {
