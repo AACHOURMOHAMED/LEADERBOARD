@@ -1,6 +1,5 @@
 import './style.scss';
 import { addScoreToApi, scoreList } from './modules/api.js';
-import List from './modules/List.js';
 
 const referesh = document.getElementById('referesh');
 const username = document.getElementById('name');
@@ -17,7 +16,6 @@ if (!listItem.length) {
 }
 
 add.addEventListener('click', () => {
-  const newItemIndex = listItem.length;
   if (username.value && score.value && score.value <= 9999999) {
     addScoreToApi(username.value, score.value);
     username.value = null;
