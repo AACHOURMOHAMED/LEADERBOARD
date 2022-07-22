@@ -12,8 +12,9 @@
             <h1 class="title">Leaderboard</h1>
         </div>
        
-    </header>
+        </header>
     <main id="main">
+        
         <div class="container">
             <div class="Content">
                 <div class="LeftContent">
@@ -21,9 +22,9 @@
                         <span>Recent scores</span>
                         <button type="button" id="referesh">Referesh</button>
                     </div>
-                    <table class="Scores">
+                    <ul class="Scores">
 
-                    </table>
+                    </ul>
                 </div>
                 <div class="rightContent">
                     <h2 class="titleInputs">Add your score</h2>
@@ -32,7 +33,7 @@
                           <input type="text" placeholder="Your name" id="name">  
                         </div>
                         <div class="inputWrapper">
-                          <input type="text" placeholder="Your score" id="score">  
+                          <input type="number" placeholder="Your score" id="score"  max="9999999">  
                         </div>
                         
                         <button type="button" id="btn">Submit</button>
