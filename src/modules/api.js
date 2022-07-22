@@ -1,7 +1,7 @@
 import List from './List.js';
 
 const leaderBoardApi = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
-const gameID = '4d7IVkemOTTVg2fUdz';
+const gameID = '4dIVkemOTTVg2fUdz';
 
 export const createGame = async () => {
   const response = await fetch(leaderBoardApi, {
