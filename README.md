@@ -4,6 +4,7 @@
 
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved in the Leaderboard API service. Built using webpack, Javascript and APIs.
 
+![Captureddddddddd](https://user-images.githubusercontent.com/92208712/185807437-19e64387-1f96-4848-a8ce-86bf6e6b7b1e.PNG)
 
 
 ## Live Preview
