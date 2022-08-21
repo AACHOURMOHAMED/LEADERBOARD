@@ -6,9 +6,8 @@ The leaderboard website displays scores submitted by different players. It also 
 
 
 
-
 ## Live Preview
-
+[LIVE DEMO](https://earnest-cupcake-4a1db0.netlify.app/)
 
 ## Built With
 
