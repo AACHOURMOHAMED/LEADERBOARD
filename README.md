@@ -64,7 +64,6 @@ npx eslint .
 👤 **AshourMohamed**
 
 - GitHub: [@githubhandle](https://github.com/AACHOURMOHAMED)
-- Twitter: [@twitterhandle](https://twitter.com/MohamedAachour3)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mohamed-aachour-25405b215)
 
 
